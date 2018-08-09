@@ -1,0 +1,61 @@
+.dataTable td img{
+    width: 15px;
+    cursor: pointer;
+}
+.dataTable{
+    width: 100% !important;
+    font-size: 13px;
+}
+.dataTable td{
+    font-size: 13px;
+    padding: 15px;
+}
+.dataTables_info{
+    display: inline-block;
+    padding: 15px;
+}
+.dataTables_paginate{
+    display: inline-block;
+    float: right;
+    padding: 15px;
+}
+.dataTables_filter{
+    display: inline-block;
+    float: right;
+    padding: 15px;
+}
+.dataTables_length{
+    display: inline-block;
+    padding: 15px;
+    width: 40%
+}
+.dataTables_length select{
+    border-radius: 3px;
+    padding: 5px;
+    min-width: 50px;
+    border: 1px solid darkgrey!important;
+}
+.dataTables_filter input{
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.dataTables_paginate a{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid darkgray;
+    background-color: #ffffff;
+    color: #005fb2;
+    border-radius: 3px;
+    margin: 5px;
+    text-decoration: none;
+}
+.dataTables_paginate .current{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #005fb2;
+    background-color: #005fb2;
+    color: #ffffff;
+    border-radius: 3px;
+    margin: 5px;
+    text-decoration: none;
+}

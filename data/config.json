@@ -1,0 +1,45 @@
+{
+    "fields": [
+        {
+            "api_name": "Id",
+            "label": "Id"
+            
+        },
+        {
+            "api_name": "IsDeleted",
+            "label": "IsDeleted",
+            "type" : "boolean"
+        },
+        {
+            "api_name": "AccountId",
+            "label": "AccountId"
+        },
+        {
+            "api_name": "Name",
+            "label": "Name"
+        },
+        {
+            "api_name": "StageName",
+            "label": "StageName"
+        },
+        {
+            "api_name": "CloseDate",
+            "label": "CloseDate",
+            "type" : "date"
+        }
+    ],
+    "actions" : [
+        {
+            "name" : "edit",
+            "callback" : "functon",
+            "label" : "Edit",
+            "icon" : "edit"
+        },
+        {
+            "name" : "view",
+            "callback" : "functon",
+            "label" : "View",
+            "icon" : "preview"
+        }
+    ]
+}
